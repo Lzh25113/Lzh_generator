@@ -10,7 +10,7 @@ import lombok.Data;
 public class DataModel {
 
     /**
-     * 是否生成 .gitignore 文件
+     * 是否生成 .gitignore文件
      */
     public boolean needGit = true;
 

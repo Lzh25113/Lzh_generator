@@ -1,6 +1,7 @@
 package com.yupi.maker.meta;
 
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
@@ -8,6 +9,7 @@ import java.util.List;
 
 @NoArgsConstructor
 @Data
+@Getter
 public class Meta {
 
     private String name;

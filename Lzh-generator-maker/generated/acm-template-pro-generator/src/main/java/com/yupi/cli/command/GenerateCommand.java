@@ -15,7 +15,7 @@ import java.util.concurrent.Callable;
 @Data
 public class GenerateCommand implements Callable<Integer> {
 
-    @Option(names = {"--needGit"}, arity = "0..1", description = "是否生成 .gitignore 文件", interactive = true, echo = true)
+    @Option(names = {"--needGit"}, arity = "0..1", description = "是否生成 .gitignore文件", interactive = true, echo = true)
     private boolean needGit = true;
 
     @Option(names = {"-l", "--loop"}, arity = "0..1", description = "是否生成循环", interactive = true, echo = true)
